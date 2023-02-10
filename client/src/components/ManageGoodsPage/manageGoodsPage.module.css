@@ -1,0 +1,98 @@
+.foodCard {}
+
+.foodCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.gioHang {
+    padding: 2rem 0.6rem;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    position: fixed;
+    right: 10px;
+    z-index: 10;
+}
+
+.gioHang:hover {
+    background-color: rgb(238, 158, 30);
+    color: rgb(227, 227, 227);
+    box-shadow: 2px 2px 1px rgb(250, 181, 7)
+}
+
+.cartInformation {
+    visibility: hidden;
+    position: relative;
+}
+
+.cartInformationOpen {
+    visibility: visible;
+}
+
+.cartContainer {
+    position: fixed;
+    right: 10%;
+    top: 2rem;
+    color: #333;
+    width: 25%;
+    min-height: 60vh;
+    border-radius: 1rem;
+
+}
+
+.tableBill::-webkit-scrollbar {
+    display: none;
+    width: 2px;
+  
+}
+.tableBill:hover::-webkit-scrollbar{
+    display: block;
+}
+.tableBill{
+    overflow-y: auto;
+    max-height: 10rem;
+}
+.tableBill::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Handle */
+.tableBill::-webkit-scrollbar-thumb {
+    background: rgb(168, 168, 168);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.tableBill::-webkit-scrollbar-thumb:hover {
+    background: #bcbcbc;
+}
+
+.infoBill{
+    padding: 1rem;
+}
+.menuInformation{
+    box-shadow: 4px 3px 2px rgb(229, 229, 229);
+    border: 1px solid #ccc;
+}
+.buyBtn{
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 50%;
+    
+}
+.homeBtn{
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}

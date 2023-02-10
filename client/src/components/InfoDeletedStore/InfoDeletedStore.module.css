@@ -1,0 +1,24 @@
+.btn{
+    color: #fff;
+    background-color: #0e8032;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin: 0 0.2rem;
+    text-decoration: none;
+}
+.btnBlue{
+    color: #fff;
+    background-color: #1d6bd8;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin: 0 0.2rem;
+    text-decoration: none;
+}
+.btnWarn{
+    color: #fff;
+    background-color: #d81d3c;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin: 0 0.2rem;
+    text-decoration: none;
+}

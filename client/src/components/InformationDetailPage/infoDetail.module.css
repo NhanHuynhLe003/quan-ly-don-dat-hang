@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+:root{
+    --bg-left-detail: #5cdb95;
+    --bg-right-detail: #379683;
+    --main-text-cl: #edf5e1;
+    --phone-cl: rgb(6, 92, 6);
+    --location: rgb(3, 38, 109);
+    --bg-card: #FCCF14;
+    --bg-card-right: #333;
+    --yellow-cl: #caac00;
+    --dark-cl: #2F3180;
+}
+.b3{
+    font-weight: 300;
+}
+.b5{
+    font-weight: 500;
+}
+.bold{
+    font-weight: bold;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-cl);
+    height: 100vh;
+    position: relative;
+}
+.informationCustomer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.locationIcon{
+    color: var(--location);
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.phoneIcon{
+    color: var(--phone-cl);
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.orderValue{
+    color: #ffd900;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.leftInfoDetail{
+    width: 40%;
+    padding: 1rem 2rem;
+    background-color: var(--bg-left-detail);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.homeIcon:hover{
+    opacity: 0.8;
+    
+}
+.rightInfoDetail{
+    width: 60%;
+    padding: 1rem 3rem;
+    background-color: var(--bg-right-detail);
+    overflow-y: auto;
+    
+}
+.avatar{
+    width: 50%;
+    border-radius: 50%;
+}
+.foodCardContainer{
+    background-color: var(--bg-card);
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    width: 90%;
+    box-shadow: 5px 5px 3px #2c7969;
+    transition-duration: 300ms;
+}
+.foodCardContainer:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+.cardInfoLeft{
+    
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+.cardInfoRight{
+    background-color: var(--bg-card-right);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 30px;
+    padding: 2rem;
+    box-shadow: 5px 5px 3px #caac00;
+}
+.foodIndex{
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    height: 3rem;
+    background-color: #333;
+    width: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight: bold;
+    
+}
+
+.rightInfoDetail::-webkit-scrollbar{
+    display: block;
+    width: 5px;
+    
+}
+
+.rightInfoDetail::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.rightInfoDetail::-webkit-scrollbar-thumb{
+    background: #333;
+    border-radius: 10px;
+    
+}
